@@ -22,6 +22,7 @@ def week_3(i_height, s_height, i_speed, s_speed):
     return vaulter_list, vaulter_dict, vaulter_namedtuple
 
 #changes that are made
+#change for test branch
 def week_4(vaulter):
     if type(vaulter) == list:
         jump_height = 0.5 * ((vaulter[1][1] ** 2) / 9.8) + vaulter[0][1]
